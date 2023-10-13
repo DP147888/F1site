@@ -35,11 +35,20 @@ main{
 .im{
     display: block;
     margin: auto;
-    width: 80%;
+    width: 50%;
+    height: 160px;
+}
+.im2{
+    display: block;
+    margin: auto;
+    width: 70%;
     height: 160px;
 }
 @media screen and (max-width:500px){
     .im{
+        display: none;
+    }
+    .im2{
         display: none;
     }
 }
