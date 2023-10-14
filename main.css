@@ -1,54 +1,74 @@
-.team{
-    border-style: solid;
-    margin: 10px;
+.team {
+    box-shadow: 0 0 30px rgb(0, 170, 238);
+    border-radius: 20px;
+    margin: 20px;
     padding: 10px;
-    width: 90%;
-    background-color: aquamarine;
-
-
+    width: 70%;
+    background: rgba(0, 170, 238, 0.9);
 }
-.racer{
-    
+
+.racer {
+
     box-shadow: 0 0 50px rgb(250, 250, 250);
     border-radius: 10px;
     font-size: large;
     margin: 10px;
     padding: 15px;
     width: 300px;
-    background-color: aqua;
+    background-color: #3FFA3F;
 }
-main{
+
+main {
+    margin-top: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    
 }
-.racers{
+
+.racers {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.im{
+
+.im {
     display: block;
     margin: auto;
-    width: 50%;
-    height: 160px;
+    max-width: 100%;
+    height: auto;
 }
-.im2{
+
+.im2 {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 100%;
     height: 160px;
 }
-@media screen and (max-width:500px){
-    .im{
+
+html {
+
+    background-image: url(preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+@media screen and (max-width:500px) {
+    .im {
         display: none;
     }
-    .im2{
+}
+@media screen and (max-width:400px) {
+    .im2 {
         display: none;
     }
 }
