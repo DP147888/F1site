@@ -1,3 +1,33 @@
+html {
+
+    background-image: url(preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+body {
+    margin: 30px;
+}
+
+main {
+    margin-top: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+p {
+    text-indent: 20px;
+}
+
 .team {
     box-shadow: 0 0 30px rgb(0, 170, 238);
     border-radius: 20px;
@@ -5,6 +35,14 @@
     padding: 10px;
     width: 70%;
     background: rgba(0, 170, 238, 0.9);
+}
+
+.racers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .racer {
@@ -16,23 +54,6 @@
     padding: 15px;
     width: 300px;
     background-color: #3FFA3F;
-}
-
-main {
-    margin-top: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.racers {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .im {
@@ -49,26 +70,27 @@ main {
     max-height: 150px;
 }
 
-html {
-
-    background-image: url(preview.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
+aside {
+    padding: 5px;
+    margin: 10px;
+    width: 15%;
 }
+
+
 
 @media screen and (max-width:300px) {
     .im {
         display: none;
     }
 }
+
 @media screen and (max-width:200px) {
     .im2 {
         display: none;
+    }
+}
+@media screen and (max-width:660px) {
+    aside {
+        width: 70%;
     }
 }
