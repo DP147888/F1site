@@ -27,8 +27,9 @@ main {
 
 h1 {
     color: rgb(16, 240, 128);
-    font-family: "Segoe UI", Arial, sans-serif;
-    font-size: 38px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
     text-shadow:
         -0 -2px 1px #000000,
         0 -2px 1px #000000,
@@ -64,7 +65,7 @@ p {
     background: rgba(32, 35, 36, 0.8);
     color: aliceblue;
     font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
-    padding: 2.5%;
+    padding: 1vw;
 }
 
 .team {
@@ -87,12 +88,12 @@ p {
 .racer {
 
     box-shadow: 0 0 50px rgb(250, 250, 250);
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: large;
-    margin: 10px;
+    margin: 25px;
     padding: 15px;
     width: 300px;
-    background-color: #3FFA3F;
+    background-color: #fd911b;
 }
 
 .im {
